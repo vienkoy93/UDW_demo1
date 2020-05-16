@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.head > h1{
+	text-transform:uppercase;
+	text-align:center;
+	animation :doimau ease-in 3s infinite;
+	}
+@keyframes doimau {
+		0%{
+			color:#F00;
+		}
+		25%{
+			color:#0F0;
+		}
+		50%{
+			color:#FF0	
+		}
+		75%{
+			color:#00F;	
+		}
+	}
+ul{
+		padding:0;
+		margin:0;
+		display:flex;
+		background-color:#999;
+	}
+ul > li{
+	list-style:none
+	
+	}
+ul > li >a{
+	float:left;
+	padding:15px;
+	text-decoration:none;
+	border-right:1px solid #FFF;
+	min-width:40px;
+		}
+		ul > li >a:hover{
+			background-color:#C03;
+			color:#FF0;	
+		}
+		
+ul > li:last-child{
+	margin-left:auto;
+}
+ul > li:last-child{
+	border-right:none;
+}
+.content{
+	display:flex;	
+	background-color:#9FC;
+	border-bottom:10px solid #FFF;
+}
+img:hover{
+	transition:ease-in 1s;
+	transform:skew(-20deg);	
+}
+p{
+	margin-top:30px;	
+}
+.footer{
+	background-color:#06F;
+	color:#CCC;
+	text-align:center;	
+}
